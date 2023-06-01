@@ -7,6 +7,12 @@
     font-family: 'Pathway Extreme', sans-serif;
 }
 
+body {
+    background-color: white;
+    color: var(--textDark);
+    font-weight:500;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -23,5 +29,32 @@
         width: 80%;
         max-width: 650px;
         min-width: 200px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .app-links {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .outro {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background: var(--brandPrimary);
     }
 }
