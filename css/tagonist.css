@@ -39,12 +39,19 @@ body {
 
     .app-links {
         display: flex;
-        margin-top: 50px;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 180px;
+        height: 120px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: var(--brandPrimary);
     }
 
     .outro {
         display: flex;
-        margin-top: 50px;
+        flex-direction: column;
     }
 
     .footer {
