@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;500&display=swap');
+
+:root {
+    --brandPrimary: #56579e;
+    --brandSecondary: #262261;
+    --textDark: #242424;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-image {
+        width: 80%;
+        max-width: 650px;
+        min-width: 200px;
+    }
+}
