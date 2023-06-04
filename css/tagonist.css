@@ -8,10 +8,41 @@
     font-family: 'Pathway Extreme', sans-serif;
 }
 
+a {
+    color: var(--textLight);
+}
+
+a:link {
+    color: var(--textLight);
+}
+
+a:visited {
+    color: var(--textLight);
+}
+
+a:hover {
+    color: var(--textLight);
+}
+
+a:active {
+    color: var(--textLight);
+}
+
 body {
     background-color: var(--brandSecondary);
     color: var(--textLight);
     font-weight:500;
+}
+
+.button {
+    display: flex;
+    background-color: var(--brandSecondary);
+    width: 184px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .container {
@@ -19,7 +50,18 @@ body {
     flex-direction: column;
     align-items: center;
 
+    .header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding-bottom: 20px;
+        background: linear-gradient(180deg, rgba(38,34,97,1) 75%, rgba(38,34,97,0) 100%);
+    }
+
     .content {
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -43,6 +85,7 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 10px;
+        width: 100%;
     }
 
     .app-links {
@@ -61,11 +104,12 @@ body {
     .outro {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .footer {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         width: 100%;
         position: fixed;
         bottom: 0;
